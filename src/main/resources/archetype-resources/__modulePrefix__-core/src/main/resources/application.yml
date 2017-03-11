@@ -1,0 +1,20 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    
+${modulePrefix}:
+  applicationName: ${rootArtifactId}
+  info:
+    projectName: @parent.name@
+    version: @project.version@
+    timestamp: @creation.time.timestamp@
+  cache:
+    timeout:
+      defaultExpiration: 30
+    names: template-1, template-2
+
+management:
+  security:
+    enabled: false
+  context-path: /actuator
