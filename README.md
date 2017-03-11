@@ -6,7 +6,7 @@ Project to create a default spring-bbot template project with some default confi
 - spring actuator with custom path: http://localhost:8080/actuator/*
 - Application server is undertow
 - Modules are : WS, Core, Worker
-- Cacheabled with redis server
+- Cache with redis server
 - Swagger configuration
 - ResourceBundle Configuration, please use *messages.properties* file in *core* module, to input your messages
 - Metrics configurations. To emtrics works it is necessary input an @Timed annotation (Acesso: http://localhost:8080/actuator/metrics)
